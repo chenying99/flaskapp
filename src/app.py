@@ -15,7 +15,7 @@ app = Flask(__name__)
 def show_details() :
     global startTime
     return "<html>" + \
-           "<head><title>Docker + Flask Demo</title></head>" + \
+           "<head><title>Docker + Flask Demo-测试docker构建哈哈哈</title></head>" + \
            "<body>" + \
            "<table>" + \
            "<tr><td> Start Time </td> <td>" +  startTime + "</td> </tr>" \
